@@ -19,15 +19,15 @@ class SessionDetail extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.facebookF,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speakers[0].fbUrl);
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(
+            //     FontAwesomeIcons.facebookF,
+            //     size: 15,
+            //   ),
+            //   onPressed: () {
+            //     launch(speakers[0].fbUrl);
+            //   },
+            // ),
             IconButton(
               icon: Icon(
                 FontAwesomeIcons.twitter,
@@ -37,24 +37,24 @@ class SessionDetail extends StatelessWidget {
                 launch(speakers[0].twitterUrl);
               },
             ),
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.linkedinIn,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speakers[0].linkedinUrl);
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.github,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speakers[0].githubUrl);
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(
+            //     FontAwesomeIcons.linkedinIn,
+            //     size: 15,
+            //   ),
+            //   onPressed: () {
+            //     launch(speakers[0].linkedinUrl);
+            //   },
+            // ),
+            // IconButton(
+            //   icon: Icon(
+            //     FontAwesomeIcons.github,
+            //     size: 15,
+            //   ),
+              //onPressed: () {
+               // launch(speakers[0].githubUrl);
+             // },
+           //),
           ],
         ),
       );
