@@ -22,11 +22,11 @@ class HomeFront extends StatelessWidget {
         SizedBox(
           height: 10,
         ),
-        Text(
-          Devfest.descText,
-          style: Theme.of(context).textTheme.caption,
-          textAlign: TextAlign.center,
-        ),
+        // Text(
+        //   Devfest.descText,
+        //   style: Theme.of(context).textTheme.caption,
+        //   textAlign: TextAlign.center,
+        // ),
       ];
 
   _launchURL(String url) async {
@@ -71,13 +71,13 @@ class HomeFront extends StatelessWidget {
             colorBrightness: Brightness.dark,
             onPressed: () => Navigator.pushNamed(context, TeamPage.routeName),
           ),
-          RaisedButton(
-            child: Text("FAQ"),
-            shape: StadiumBorder(),
-            color: Colors.brown,
-            colorBrightness: Brightness.dark,
-            onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
-          ),
+          // RaisedButton(
+          //   child: Text("FAQ"),
+          //   shape: StadiumBorder(),
+          //   color: Colors.brown,
+          //   colorBrightness: Brightness.dark,
+          //   onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
+          // ),
           RaisedButton(
             child: Text("Locate Us"),
             shape: StadiumBorder(),
@@ -119,12 +119,12 @@ class HomeFront extends StatelessWidget {
             onPressed: () =>
                 Navigator.pushNamed(context, SponsorPage.routeName),
           ),
-          ActionCard(
-            icon: Icons.question_answer,
-            color: Colors.brown,
-            title: Devfest.faq_text,
-            onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
-          ),
+          // ActionCard(
+          //   icon: Icons.question_answer,
+          //   color: Colors.brown,
+          //   title: Devfest.faq_text,
+          //   onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
+          // ),
           ActionCard(
             icon: Icons.map,
             color: Colors.blue,
@@ -138,41 +138,41 @@ class HomeFront extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-            IconButton(
-              icon: Icon(FontAwesomeIcons.facebookF),
-              onPressed: () async {
-                await _launchURL("https://facebook.com/imthepk");
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(FontAwesomeIcons.facebookF),
+            //   onPressed: () async {
+            //     await _launchURL("https://facebook.com/imthepk");
+            //   },
+            // ),
             IconButton(
               icon: Icon(FontAwesomeIcons.twitter),
               onPressed: () async {
-                await _launchURL("https://twitter.com/imthepk");
+                await _launchURL("https://twitter.com/gdgabuja");
               },
             ),
-            IconButton(
-              icon: Icon(FontAwesomeIcons.linkedinIn),
-              onPressed: () async {
-                _launchURL("https://linkedin.com/in/imthepk");
-              },
-            ),
-            IconButton(
-              icon: Icon(FontAwesomeIcons.youtube),
-              onPressed: () async {
-                await _launchURL("https://youtube.com/mtechviral");
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(FontAwesomeIcons.linkedinIn),
+            //   onPressed: () async {
+            //     _launchURL("https://linkedin.com/in/imthepk");
+            //   },
+            // ),
+            // IconButton(
+            //   icon: Icon(FontAwesomeIcons.youtube),
+            //   onPressed: () async {
+            //     await _launchURL("https://youtube.com/mtechviral");
+            //   },
+            // ),
             IconButton(
               icon: Icon(FontAwesomeIcons.meetup),
               onPressed: () async {
-                await _launchURL("https://meetup.com/");
+                await _launchURL("https://meetup.com/GDG-Abuja");
               },
             ),
             IconButton(
               icon: Icon(FontAwesomeIcons.envelope),
               onPressed: () async {
                 var emailUrl =
-                    '''mailto:mtechviral@gmail.com?subject=Support Needed For DevFest App&body={Name: Pawan Kumar},Email: pawan221b@gmail.com}''';
+                    '''mailto:devfestabuja@gmail.com ?subject=Support Needed For DevFest Abuja''';
                 var out = Uri.encodeFull(emailUrl);
                 await _launchURL(out);
               },

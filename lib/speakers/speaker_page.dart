@@ -15,47 +15,47 @@ class SpeakerPage extends StatelessWidget {
   static const String routeName = "/speakers";
 
   Widget socialActions(context, Speaker speaker) => FittedBox(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.facebookF,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speaker.fbUrl);
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.twitter,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speaker.twitterUrl);
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.linkedinIn,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speaker.linkedinUrl);
-              },
-            ),
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.github,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speaker.githubUrl);
-              },
-            ),
-          ],
-        ),
+        //child: Row(
+          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+         // children: <Widget>[
+          //   IconButton(
+          //     icon: Icon(
+          //       FontAwesomeIcons.facebookF,
+          //       size: 15,
+          //     ),
+          //     onPressed: () {
+          //       launch(speaker.fbUrl);
+          //     },
+          //   ),
+          //   IconButton(
+          //     icon: Icon(
+          //       FontAwesomeIcons.twitter,
+          //       size: 15,
+          //     ),
+          //     onPressed: () {
+          //       launch(speaker.twitterUrl);
+          //     },
+          //   ),
+          //   IconButton(
+          //     icon: Icon(
+          //       FontAwesomeIcons.linkedinIn,
+          //       size: 15,
+          //     ),
+          //     onPressed: () {
+          //       launch(speaker.linkedinUrl);
+          //     },
+          //   ),
+          //   IconButton(
+          //     icon: Icon(
+          //       FontAwesomeIcons.github,
+          //       size: 15,
+          //     ),
+          //     onPressed: () {
+          //       launch(speaker.githubUrl);
+          //     },
+          //   ),
+          // ],
+       // ),
       );
   @override
   Widget build(BuildContext context) {

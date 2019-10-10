@@ -42,10 +42,10 @@ class Team {
     data['job'] = this.job;
     data['image'] = this.image;
     data['speciality'] = this.speciality;
-    data['fb_url'] = this.fbUrl;
-    data['twitter_url'] = this.twitterUrl;
-    data['linkedin_url'] = this.linkedinUrl;
-    data['github_url'] = this.githubUrl;
+    // data['fb_url'] = this.fbUrl;
+    // data['twitter_url'] = this.twitterUrl;
+    // data['linkedin_url'] = this.linkedinUrl;
+    // data['github_url'] = this.githubUrl;
     data['contribution'] = this.contribution;
     return data;
   }
@@ -53,37 +53,44 @@ class Team {
 
 List<Team> teams = [
   Team(
-    name: "Sundar Pichai",
-    desc: "Organizer",
-    contribution: "Google CEO",
+    name: "GDG Abuja",
+    desc: "Bulama Yusuf",
+    contribution: "Organizer",
     image:
-        "https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_400x400.jpg",
+        "https://res.cloudinary.com/jaykon/image/upload/v1569880578/or4ku8cuvmxhnklvutt5.jpg",
   ),
   Team(
-    name: "Vrijraj",
-    desc: "Co-Organizer",
-    contribution: "Logistics and travels",
-    image: "https://avatars2.githubusercontent.com/u/10599101?s=460&v=4",
+    name: "GDG Minna",
+    desc: "Umar Saidu",
+    contribution: "Organizer",
+    image: "https://res.cloudinary.com/jaykon/image/upload/v1569880592/apqqmr89t5ab89f0qph4.jpg",
   ),
   Team(
-    name: "Larry Page",
-    desc: "Co-Organizer",
-    contribution: "Founder",
+    name: "GDG Keffi",
+    desc: "Ishaka Usman Idris",
+    contribution: "Organizer",
     image:
-        "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76bcaaa7ea43100043c836%2F400x400.jpg%3Ffit%3Dscale%26background%3D000000",
+        "https://res.cloudinary.com/jaykon/image/upload/v1569880593/quxmvddcssn0sytom85x.jpg",
   ),
   Team(
-    name: "Pawan Kumar",
-    desc: "Co-Organizer",
-    contribution: "Developed the app",
+    name: "GDG Makurdi",
+    desc: "Pius Aboyi",
+    contribution: "Organizer",
     image:
-        "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4",
+        "https://res.cloudinary.com/jaykon/image/upload/v1569880599/n1skxopsgxxsaobjzcsj.jpg",
   ),
   Team(
-    name: "Pawan Kumar",
-    desc: "Organizer",
-    contribution: "Developed the app",
+    name: "GDG Ilorin",
+    desc: "Kamaldeen Kehinde",
+    contribution: "Organizer",
     image:
-        "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4",
+        "https://res.cloudinary.com/jaykon/image/upload/v1570202823/vu803fleaoigntjs6p5u.jpg",
+  ),
+  Team(
+    name: "GDG Lafia",
+    desc: "Abdullahi Aliyu",
+    contribution: "Organizer",
+    image:
+        "https://res.cloudinary.com/jaykon/image/upload/v1569880576/qr3dcjsfzgemq7p94880.jpg",
   ),
 ];

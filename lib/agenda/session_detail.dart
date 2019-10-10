@@ -16,9 +16,9 @@ class SessionDetail extends StatelessWidget {
   SessionDetail({Key key, @required this.session}) : super(key: key);
 
   Widget socialActions(context) => FittedBox(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: <Widget>[
+        // child: Row(
+        //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        //   children: <Widget>[
             // IconButton(
             //   icon: Icon(
             //     FontAwesomeIcons.facebookF,
@@ -28,15 +28,15 @@ class SessionDetail extends StatelessWidget {
             //     launch(speakers[0].fbUrl);
             //   },
             // ),
-            IconButton(
-              icon: Icon(
-                FontAwesomeIcons.twitter,
-                size: 15,
-              ),
-              onPressed: () {
-                launch(speakers[0].twitterUrl);
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(
+            //     FontAwesomeIcons.twitter,
+            //     size: 15,
+            //   ),
+            //   onPressed: () {
+            //     launch(speakers[0].twitterUrl);
+            //   },
+            // ),
             // IconButton(
             //   icon: Icon(
             //     FontAwesomeIcons.linkedinIn,
@@ -54,9 +54,9 @@ class SessionDetail extends StatelessWidget {
               //onPressed: () {
                // launch(speakers[0].githubUrl);
              // },
-           //),
-          ],
-        ),
+        //    //),
+        //   ],
+        // ),
       );
 
   @override

@@ -18,22 +18,22 @@ class SponsorPage extends StatelessWidget {
             height: 30,
           ),
           SponsorImage(
-            imgUrl: "https://devfest.gdgkolkata.org/assets/img/jetbrains.png",
+            imgUrl: "https://res.cloudinary.com/jaykon/image/upload/v1570019842/zihdx0vuwbwnoddstget.png",
           ),
           SizedBox(
             height: 30,
           ),
-          SponsorImage(
-            imgUrl:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/220px-Kotlin-logo.svg.png",
-          ),
-          SizedBox(
-            height: 30,
-          ),
-          SponsorImage(
-            imgUrl:
-                "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_0016c93c710cf35990b999cba3a59bae/firebase.png",
-          )
+          // SponsorImage(
+          //   imgUrl:
+          //       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/220px-Kotlin-logo.svg.png",
+          // ),
+          // SizedBox(
+          //   height: 30,
+          // ),
+          // SponsorImage(
+          //   imgUrl:
+          //       "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_0016c93c710cf35990b999cba3a59bae/firebase.png",
+          // )
         ],
       ),
       title: "Sponsors",
